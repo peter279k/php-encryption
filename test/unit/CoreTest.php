@@ -1,8 +1,9 @@
 <?php
 
 use \Defuse\Crypto\Core;
+use PHPUnit\Framework\TestCase;
 
-class CoreTest extends PHPUnit_Framework_TestCase
+class CoreTest extends TestCase
 {
     // The specific bug the following two tests check for did not fail when
     // mbstring.func_overload=0 so it is crucial to run these tests with

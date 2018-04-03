@@ -1,8 +1,9 @@
 <?php
 
 use \Defuse\Crypto\Core;
+use PHPUnit_Framework_TestCase;
 
-class CtrModeTest extends PHPUnit_Framework_TestCase
+class CtrModeTest extends TestCase
 {
     public function counterTestVectorProvider()
     {

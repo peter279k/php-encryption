@@ -2,8 +2,9 @@
 
 use \Defuse\Crypto\Encoding;
 use \Defuse\Crypto\Core;
+use PHPUnit\Framework\TestCase;
 
-class EncodingTest extends PHPUnit_Framework_TestCase
+class EncodingTest extends TestCase
 {
     public function testEncodeDecodeEquivalency()
     {

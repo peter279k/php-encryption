@@ -2,8 +2,9 @@
 
 use \Defuse\Crypto\Core;
 use \Defuse\Crypto\Key;
+use PHPUnit\Framework\TestCase;
 
-class KeyTest extends PHPUnit_Framework_TestCase
+class KeyTest extends TestCase
 {
     public function testCreateNewRandomKey()
     {

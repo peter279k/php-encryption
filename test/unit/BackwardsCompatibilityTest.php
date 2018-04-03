@@ -3,8 +3,9 @@
 use \Defuse\Crypto\Crypto;
 use \Defuse\Crypto\Encoding;
 use \Defuse\Crypto\Key;
+use PHPUnit\Framework\TestCase;
 
-class BackwardsCompatibilityTest extends PHPUnit_Framework_TestCase
+class BackwardsCompatibilityTest extends TestCase
 {
 
 	/* helper function to create a key with raw bytes */

@@ -2,7 +2,9 @@
 
 namespace Defuse\Crypto;
 
-class FileTest extends \PHPUnit_Framework_TestCase
+use PHPUnit\Framework\TestCase;
+
+class FileTest extends TestCase
 {
     private $key;
     private static $FILE_DIR;

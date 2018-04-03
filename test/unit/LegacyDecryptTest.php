@@ -2,8 +2,9 @@
 
 use \Defuse\Crypto\Crypto;
 use \Defuse\Crypto\Encoding;
+use PHPUnit\Framework\TestCase;
 
-class LegacyDecryptTest extends PHPUnit_Framework_TestCase
+class LegacyDecryptTest extends TestCase
 {
     public function testDecryptLegacyCiphertext()
     {

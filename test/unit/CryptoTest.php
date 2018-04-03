@@ -4,8 +4,9 @@ use \Defuse\Crypto\Core;
 use \Defuse\Crypto\Crypto;
 use \Defuse\Crypto\Key;
 use Defuse\Crypto\Exception as Ex;
+use PHPUnit\Framework\TestCase;
 
-class CryptoTest extends PHPUnit_Framework_TestCase
+class CryptoTest extends TestCase
 {
     # Test for issue #165 -- encrypting then decrypting empty string fails.
     public function testEmptyString()
