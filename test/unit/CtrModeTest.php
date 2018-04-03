@@ -1,7 +1,7 @@
 <?php
 
 use \Defuse\Crypto\Core;
-use PHPUnit_Framework_TestCase;
+use PHPUnit\Framework\TestCase;
 
 class CtrModeTest extends TestCase
 {
